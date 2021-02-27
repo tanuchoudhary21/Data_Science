@@ -5,7 +5,7 @@ username <- 'tanuchoudhary21'
 url_git <- 'https://api.github.com/'
 
 # Construct API request
-repos <- GET(url = paste0(url_git,'users/',username,'/repos'))
+repos <- GET(url = paste0(url_git,'users/',username,'/Data_Science'))
 
 # Examine response components
 names(repos)
