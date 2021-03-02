@@ -45,7 +45,7 @@ print(paste0('Status code: ', status_code(commits)))
 # Get content
 commits_content <- content(commits)
 
-commits_df <- fromJSON(txt = url_repo)
+commits_df = fromJSON(txt = url_repo)
 glimpse(commits_df)
 
 
